@@ -1,25 +1,28 @@
 loadLibs=[
   #"libGenVector",
-	"libD3PDVariables",
+	"libNtupleVariables",
   "libGoodRunsLists",
 	"libPileupReweightingTool",
-  "libWHAllhadronicResonances"
+  "libBTagTools",
+  "libVHAllhadronicResonances"
   ]
 
 
 loadPacks=[
     "SFrameCore.par",
-   	"D3PDVariables.par",
+   	"NtupleVariables.par",
     "GoodRunsLists.par",
    	"PileupReweightingTool.par",
-    "WHAllhadronicResonances.par"
+    "BTaggingTools.par",
+    "VHAllhadronicResonances.par"
 	   ]
 
 compilePacks=[
-  "../Common/D3PDVariables",
-  "../Common/PileupReweightingTool",
+  "../NtupleVariables",
   "../GoodRunsLists",
-  "../B2G/WHAllhadronicResonances"
+  "../PileupReweightingTool",
+  "../BTaggingTools",
+  "../VHAllhadronicResonances"
   ]
 
 AddUserItems = [
