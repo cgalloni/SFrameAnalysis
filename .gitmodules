@@ -16,3 +16,6 @@
 [submodule "VHTausResonances"]
 	path = VHTausResonances
 	url = https://github.com/cgalloni/VHTausResonances
+[submodule "SVFit"]
+	path = SVFit
+	url = https://github.com/cgalloni/SVFit.git
