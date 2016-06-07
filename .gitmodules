@@ -3,7 +3,7 @@
 	url = git@github.com:UZHCMS/NtupleVariables.git
 [submodule "PileupReweightingTool"]
 	path = PileupReweightingTool
-	url = git@github.com:UZHCMS/PileupReweightingTool.git
+	url = git@github.com:cgalloni/PileupReweightingTool.git
 [submodule "BTaggingTools"]
 	path = BTaggingTools
 	url = git@github.com:UZHCMS/BTaggingTools.git
