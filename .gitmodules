@@ -13,3 +13,6 @@
 [submodule "VHAllhadronicResonances"]
 	path = VHAllhadronicResonances
 	url = git@github.com:clelange/VHAllhadronicResonances.git
+[submodule "VHTausResonances"]
+	path = VHTausResonances
+	url = https://github.com/cgalloni/VHTausResonances
