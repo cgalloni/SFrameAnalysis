@@ -15,7 +15,7 @@
 	url = git@github.com:clelange/VHAllhadronicResonances.git
 [submodule "VHTausResonances"]
 	path = VHTausResonances
-	url = https://github.com/cgalloni/VHTausResonances
+	url = git@github.com:cgalloni/VHTausResonances.git
 [submodule "SVFit"]
 	path = SVFit
-	url = https://github.com/cgalloni/SVFit.git
+	url = git@github.com:cgalloni/SVFit.git
