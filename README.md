@@ -14,10 +14,13 @@ cd CMSSW_7_4_12_patch2/src
 cmsenv
 cd ../..
 ```
-Then clone this repository (or your fork of it):
+Then get this repository, before fork of it and then:
 ```
-git clone git@github.com:clelange/SFrameAnalysis.git
+git clone git@github.com:${GITUSER}/SFrameAnalysis.git
 cd SFrameAnalysis
+git remote  add cgalloni  git@github.com:cgalloni/SFrameAnalysis.git
+git fetch cgalloni
+git checkout -b my_branch cgalloni/80_branch 
 source init.sh
 ```
 

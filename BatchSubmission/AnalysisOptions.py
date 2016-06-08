@@ -4,7 +4,8 @@ loadLibs=[
   "libGoodRunsLists",
 	"libPileupReweightingTool",
   "libBTaggingTools",
-  "libVHAllhadronicResonances"
+  "libVHTausResonances",
+        "libSVFit",
   ]
 
 
@@ -14,7 +15,8 @@ loadPacks=[
     "GoodRunsLists.par",
    	"PileupReweightingTool.par",
     "BTaggingTools.par",
-    "VHAllhadronicResonances.par"
+    "VHTausResonances.par",
+    "SVFit.par"
 	   ]
 
 compilePacks=[
@@ -22,12 +24,17 @@ compilePacks=[
   "../GoodRunsLists",
   "../PileupReweightingTool",
   "../BTaggingTools",
-  "../VHAllhadronicResonances"
+  "../SVFit",
+  "../VHTausResonances"
   ]
 
 AddUserItems = [
    #general settings
    ["RecoTreeName","tree"], 
-  ]
+   ["OutputTreeName_eletau", "tree_eletau"],
+   ["OutputTreeName_mutau", "tree_mutau"],
+   ["OutputTreeName_tautau", "tree_tautau"],
+   ["JetPtCut", "120."]
+   ]
 
 #End

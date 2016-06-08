@@ -67,7 +67,8 @@ def main():
       print "- "*10
       sample = sample.strip("\n")
       sampleName = (sample.strip("/")).rsplit("/",1)[1]
-      print "Sample: %s in location: %s" %(sampleName,sample)
+      sampleName_file=(sample.strip("/")).rsplit("/",3)[1]
+      print "Sample: %s in location: %s producing file with list %s" %(sampleName,sample,sampleName_file )
       fileList=[]
       if not os.path.isdir(sample):
         print sample,"is not a directory."
@@ -99,9 +100,9 @@ def main():
           print "No files found."
         for i in range(nFiles):
           if (nFiles > 1):
-            outName = "%s_%d" %(sampleName, i)
+            outName = "%s_%d" %(sampleName_file, i)
           else:
-            outName = sampleName
+            outName = sampleName_file
           csvList = ""
           for fileIndex in range(i*maxFiles,min((i+1)*maxFiles,len(fileList))):
             csvList = csvList+fileList[fileIndex]+","
