@@ -1,6 +1,7 @@
 [submodule "NtupleVariables"]
 	path = NtupleVariables
 	url = git@github.com:UZHCMS/NtupleVariables.git
+	branch = 80_branch
 [submodule "PileupReweightingTool"]
 	path = PileupReweightingTool
 	url = git@github.com:cgalloni/PileupReweightingTool.git
@@ -16,6 +17,9 @@
 [submodule "VHTausResonances"]
 	path = VHTausResonances
 	url = git@github.com:cgalloni/VHTausResonances.git
+	branch = 80_branch
 [submodule "SVFit"]
 	path = SVFit
 	url = git@github.com:cgalloni/SVFit.git
+[submodule "BTaggingTool"]
+	branch = 80_branch
