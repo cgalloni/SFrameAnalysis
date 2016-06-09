@@ -8,6 +8,7 @@
 [submodule "BTaggingTools"]
 	path = BTaggingTools
 	url = git@github.com:UZHCMS/BTaggingTools.git
+	branch = 80_branch
 [submodule "GoodRunsLists"]
 	path = GoodRunsLists
 	url = git@github.com:UZHCMS/GoodRunsLists.git
@@ -21,5 +22,5 @@
 [submodule "SVFit"]
 	path = SVFit
 	url = git@github.com:cgalloni/SVFit.git
-[submodule "BTaggingTool"]
-	branch = 80_branch
+
+	
